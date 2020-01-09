@@ -1,0 +1,22 @@
+{
+  "name": "hexo-generator-sogou-sitemap",
+  "version": "0.1.8",
+  "description": "Sogou sitemap generator plugin for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "sitemap",
+    "generator",
+    "sogou"
+  ],
+  "author": "rqh656418510",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "hexo": "^3.0.0",
+    "utils-merge": "^1.0.0"
+  }
+}
