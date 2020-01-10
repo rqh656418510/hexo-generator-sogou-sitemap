@@ -2,7 +2,7 @@
 
 ## Install
 
-only suitable for hexo version 3.x.x, you can install as follow:
+Suitable for hexo version 3.x.x, you can install as follow:
 
 ``` bash
 $ npm install hexo-generator-sogou-sitemap --save

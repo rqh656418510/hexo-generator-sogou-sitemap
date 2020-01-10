@@ -4,7 +4,6 @@ var log = require('hexo-log')({name: 'hexo-generator-sogou-sitemap', debug: fals
 
 var config = hexo.config;
 
-// 处理文件扩展名
 if (!pathFn.extname(config.sogousitemap.path)){
   config.sogousitemap.path += '.xml';
 }
