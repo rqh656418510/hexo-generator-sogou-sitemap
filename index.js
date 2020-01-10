@@ -4,6 +4,8 @@ var log = require('hexo-log')({name: 'hexo-generator-sogou-sitemap', debug: fals
 
 var config = hexo.config;
 
+config.sogousitemap = merge({'path':'sogousitemap.xml'}, config.sogousitemap);
+
 if (!pathFn.extname(config.sogousitemap.path)){
   config.sogousitemap.path += '.xml';
 }
